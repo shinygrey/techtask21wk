@@ -1,0 +1,35 @@
+{
+  "name": "starter_app",
+  "version": "1.0.0",
+  "description": "Field of Sheep",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./config/webpack.config.js --open",
+    "test": "jest"
+  },
+  "author": {
+    "name": "Greg Hurlock"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.21",
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.3",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^26.6.3",
+    "style-loader": "^0.23.1",
+    "ts-jest": "^26.5.4",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.9.9",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@types/three": "^0.126.1",
+    "bootstrap": "^4.3.1",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "three": "^0.126.1"
+  }
+}
